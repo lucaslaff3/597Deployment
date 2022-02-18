@@ -24,7 +24,6 @@ app.config["DEBUG"] = True
 # define endpoints
 @app.route('/', methods=['GET'])
 def home():       
-            
     return 'App is Healthy'
 
 
