@@ -22,7 +22,7 @@ app = Flask(__name__)
 app.config["DEBUG"] = True
 
 # define endpoints
-@app.route('/', methods=['GET'])
+@app.route('/check', methods=['GET'])
 def home():       
             
     return 'App is Healthy'
